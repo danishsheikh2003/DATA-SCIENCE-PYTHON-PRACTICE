@@ -1,0 +1,4 @@
+INFO:root:Data loaded successfully
+WARNING:root:Missing values found
+ERROR:root:File not found
+CRITICAL:root:Database connection failed

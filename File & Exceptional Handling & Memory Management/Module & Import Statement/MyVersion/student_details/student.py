@@ -1,11 +1,19 @@
-import os, sys
-from os.path import dirname, join, abspath
+class Student:
+    def __init__(self):
+        self.__Number1 = int(input("Enter Number 1: "))
+        self.__Number2 = int(input("Enter Number 2: "))
 
-abspath(join())
+    def addition(self):
+        return self.__Number1 + self.__Number2
 
-from teacher_details import teacher
+    def Subtraction(self):
+        return self.__Number1 - self.__Number2
 
-def student():
-    print("This is student details")
+    def Multiplaycaion(self):
+        return self.__Number1 * self.__Number2
 
-teacher.teacher()
+    def Divition(self):
+        return self.__Number1 / self.__Number2
+
+
+        
